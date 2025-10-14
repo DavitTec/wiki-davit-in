@@ -5,10 +5,15 @@ extensions:
   - dbaeumer.vscode-eslint
   - christian-kohler.npm-intellisense
   - eamodio.gitlens
-  - knisterpeter.vscode-commitizen
   - mhutchie.git-graph
   - rogalmic.bash-debug
   - gruntfuggly.todo-tree
+  - tyriar.sort-lines
+  - vstirbu.vscode-mermaid-preview
+  - mermaidchart.vscode-mermaid-chart
+  - budparr.language-hugo-vscode
+  - fivethree.vscode-hugo-snippets
+  - eliostruyf.vscode-hugo-themer
 settings:
   editor.formatOnSave: true
   prettier.enable: true
@@ -17,7 +22,6 @@ settings:
   shellcheck.enable: true
   shellcheck.useWorkspaceRootAsCwd: true
   gitlens.hovers.currentLine.over: "line"
-  commitizen.path: "cz-conventional-changelog"
   debug.node.autoAttach: "on"
   tasks.runners: ["pnpm run parallel"]
 launch:
