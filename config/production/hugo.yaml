@@ -1,0 +1,25 @@
+---
+baseURL: "https://wiki.davit.in/"
+languageCode: "en-gb"
+title: "DAVIt Wiki"
+theme: "hugo-davit-docs"
+
+params:
+  BookTheme: "light"
+  BookToC: true
+  BookSection: "*"
+  BookRepo: "https://github.com/DavitTec/wiki-davit-in"
+  BookEditPath: "edit/main/content"
+  BookSearch: true
+  BookDateFormat: "2 January 2006"
+  BookMenuBundle: "/menu"
+  assetBase: "https://assets.davit.in/" # External CDN/server for production
+  minimizeAssets: true # Minify CSS/JS for production
+  cacheAssets: true # Enable caching headers (handled by server/CDN)
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML for YouTube embeds
+---

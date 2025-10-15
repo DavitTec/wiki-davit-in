@@ -1,0 +1,25 @@
+---
+baseURL: "https://staging.wiki.davit.in/"
+languageCode: "en-gb"
+title: "DAVIt Wiki (Staging)"
+theme: "hugo-davit-docs"
+
+params:
+  BookTheme: "light"
+  BookToC: true
+  BookSection: "*"
+  BookRepo: "https://github.com/DavitTec/wiki-davit-in"
+  BookEditPath: "edit/staging/content"
+  BookSearch: true
+  BookDateFormat: "2 January 2006"
+  BookMenuBundle: "/menu"
+  assetBase: "https://staging-assets.davit.in/" # Staging CDN/server
+  minimizeAssets: true # Minify for staging
+  cacheAssets: true # Enable caching for testing
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML for YouTube embeds
+---
+

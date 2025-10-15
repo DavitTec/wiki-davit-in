@@ -1,0 +1,55 @@
+---
+baseURL: "http://localhost:1313/"
+defaultContentLanguage: "en" # UK English
+languageCode: "en-gb"
+title: "DAVIt Wiki (Development)"
+theme: "hugo-davit-docs"
+
+languages:
+  en:
+    title: "DAVIt Wiki"
+    weight: 1
+    contentDir: "content/en"  # Your current content
+    languageCode: en-gb
+    languageName: English
+    sectionPagesMenu: main
+    menus:
+      - identifier: "home"
+        name: "Home"
+        url: "/"
+        weight: 1
+      - identifier: "docs"
+        name: "Docs"
+        url: "/documentation/"
+        weight: 30
+      - name: "About"
+        pageRef: "/about/"
+        weight: 20
+      - name: "Contact"
+        pageRef: "/contact/"
+        weight: 30
+      - name: "Posts"
+        pageRef: "/posts/"
+        weight: 50
+
+params:
+  BookTheme: "light"
+  BookToC: true
+  BookSection: "*"
+  BookRepo: "https://github.com/DavitTec/wiki-davit-in"
+  BookEditPath: "edit/develop/content"
+  BookSearch: true
+  BookDateFormat: "2 January 2006"
+  BookMenuBundle: "/menu"
+  assetBase: "/assets/" # Local assets for development
+  minimizeAssets: false # No minification for debugging
+  cacheAssets: false # No caching for local development
+  BookLogo: ./images/logo.png
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML for YouTube embeds
+
+
+

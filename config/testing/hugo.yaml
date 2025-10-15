@@ -1,0 +1,25 @@
+---
+baseURL: "http://localhost:1313/"
+languageCode: "en-gb"
+title: "DAVIt Wiki (Testing)"
+theme: "hugo-davit-docs"
+
+params:
+  BookTheme: "light"
+  BookToC: true
+  BookSection: "*"
+  BookRepo: "https://github.com/DavitTec/wiki-davit-in"
+  BookEditPath: "edit/testing/content"
+  BookSearch: true
+  BookDateFormat: "2 January 2006"
+  BookMenuBundle: "/menu"
+  assetBase: "/assets/" # Local assets for testing
+  minimizeAssets: false # No minification for debugging
+  cacheAssets: false # No caching for local testing
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allow HTML for YouTube embeds
+---
+
