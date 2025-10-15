@@ -84,10 +84,10 @@ The Book theme provides a wiki-like layout with collapsible sidebar navigation, 
 text
 
 ```
-git submodule add https://github.com/DavitTec/hugo-davit-docs.git themes/davit-docs
+git submodule add https://github.com/DavitTec/hugo-davit-docs.git themes/hugo-davit-docs
 
 
-echo "theme: davit-docs" >> hugo.yaml
+echo "theme: hugo-davit-docs" >> hugo.yaml
 ```
 
 ###
