@@ -1,3 +1,6 @@
 [submodule "themes/davit-docs"]
 	path = themes/davit-docs
 	url = https://github.com/DavitTec/hugo-davit-docs.git
+[submodule "themes/hugo-davit-docs"]
+	path = themes/hugo-davit-docs
+	url = https://github.com/DavitTec/hugo-davit-docs.git
