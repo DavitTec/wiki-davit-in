@@ -1,4 +1,3 @@
-[submodule "themes/davit-docs"]
+[submodule "themes/hugo-davit-docs"]
 	path = themes/hugo-davit-docs
 	url = https://github.com/DavitTec/hugo-davit-docs.git
-
